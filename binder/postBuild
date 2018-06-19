@@ -1,9 +1,3 @@
-mkdir data/
-cd data
-curl -L "https://visualgenome.org/static/data/dataset/image_data.json.zip" > image_data.json.zip
-unzip image_data.json.zip
-rm image_data.json.zip
-curl -L "https://visualgenome.org/static/data/dataset/question_answers.json.zip" > question_answers.json.zip
-unzip question_answers.json.zip
-rm question_answers.json.zip
+cd tools
+sh download.sh
 cd ..
