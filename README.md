@@ -1,4 +1,5 @@
 # Bilinear attention networks for visual question answering
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/kmader/ban-vqav/master)
 
 This repository is the implementation of [Bilinear Attention Networks](http://arxiv.org/abs/1805.07932) for the visual question answering task. Our single model achieved **70.35** and an ensemble of 15 models achieved **71.84** (Test-standard, VQA 2.0). For the detail, please refer to our [technical report](http://arxiv.org/abs/1805.07932).
 
