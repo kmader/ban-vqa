@@ -20,8 +20,8 @@ dependencies:
   - h5py
   - scikit-image<=0.20
   - scikit-learn<=0.20
-  - pytorch<=0.3.0
-  - torchvision
+  - pytorch-cpu<=0.40
+  - torchvision-cpu
   - opencv3>=3.0
   - pip:
     - appmode
